@@ -13,6 +13,7 @@ html {
     font-family: "Fira Sans", serif;
     width: 90%;
     margin: 0 auto;
+    background: rgb(240, 237, 237);
 }
 
 /* navbar */
@@ -69,4 +70,34 @@ header button {
     border: none;
     color: white;
     cursor: pointer;
+}
+
+/* Pillars of "Bangladesh 2.0" start hear */
+.pillars-of-bangladesh {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.pillars-of-bangladesh h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.pillars-card {
+    padding: 24px;
+    background: white;
+    border-radius: 8px;
+}
+
+.pillars-card h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--text-dark-2);
+}
+
+.pillars-card p {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-dark-3);
 }
