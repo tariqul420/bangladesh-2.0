@@ -16,6 +16,39 @@ html {
     background: rgb(240, 237, 237);
 }
 
+.heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.subTitle {
+    color: var(--text-dark-3);
+    font-family: "Fira Sans", serif;
+}
+
+.card-template {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.btn {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px 13px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
 /* navbar */
 nav {
     display: flex;
@@ -73,17 +106,6 @@ header button {
 }
 
 /* Pillars of "Bangladesh 2.0" start hear */
-.pillars-of-bangladesh {
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.pillars-of-bangladesh h2 {
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--text-dark);
-}
-
 .pillars-card {
     padding: 24px;
     background: white;
@@ -100,4 +122,22 @@ header button {
     font-weight: 600;
     font-size: 16px;
     color: var(--text-dark-3);
+}
+
+/* The Vision of Future section start hear */
+.testimonial {
+    padding: 40px;
+    background: white;
+    border: 1px solid #0e0e0e26;
+    border-radius: 16px;
+}
+
+.testimonial h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-dark-2);
+}
+
+.testimonial .p2 {
+    color: #0e0e0e99;
 }
